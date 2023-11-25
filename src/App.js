@@ -1,15 +1,7 @@
-// App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import TicTacToe from './TicTacToe';
-
-function Home() {
-  return <h2>Home Page</h2>;
-}
-
-function About() {
-  return <h2>About Page</h2>;
-}
+import QuoteGenerator from './QuoteGenerator';
 
 function App() {
   return (
@@ -31,9 +23,8 @@ function App() {
 
         <hr />
 
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/tic-tac-toe" component={TicTacToe} />
+        <Route path="/tic-tac-toe" component={<TicTacToe/>} />
+        <Route path="/quote-generator" component={<QuoteGenerator/>} />
       </div>
     </Router>
   );

@@ -4,13 +4,13 @@
 .navbar{
   display: flex;
   justify-content: space-between;
-  background-color: lightgreen;
+  background-color: black;
   padding: 10px 16px;
   margin-bottom: 16px;
 }
 
 .navbar-logo{
-  color:white;
+  color:black;
   font-size: 20px;
 }
 
@@ -24,7 +24,7 @@
 
 .navbar-menu li a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 body{

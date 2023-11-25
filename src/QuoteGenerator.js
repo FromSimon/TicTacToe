@@ -1,4 +1,3 @@
-// QuoteGenerator.js
 import React, { useState, useEffect } from 'react';
 
 export default function QuoteGenerator() {
@@ -18,7 +17,6 @@ export default function QuoteGenerator() {
 
   return (
     <div>
-      <h2>Quote Generator</h2>
       <p>{quote}</p>
     </div>
   );
